@@ -1,9 +1,9 @@
 [gd_resource type="TileSet" load_steps=9 format=3 uid="uid://cx6w7pusha614"]
 
-[ext_resource type="Texture2D" uid="uid://sjvskpovfm5m" path="res://art/Tilesets/Water.png" id="1_ch03o"]
-[ext_resource type="Texture2D" uid="uid://nwapm537srqs" path="res://art/Tilesets/Grass.png" id="2_w1vac"]
-[ext_resource type="Texture2D" uid="uid://spusnej1hhyt" path="res://art/Tilesets/Tilled_Dirt_Wide_v2.png" id="3_5jhh2"]
-[ext_resource type="Texture2D" uid="uid://cfnw1nxekkst2" path="res://art/Objects/Basic_Grass_Biom_things.png" id="4_pbe7d"]
+[ext_resource type="Texture2D" uid="uid://sjvskpovfm5m" path="res://art/tilesets/Water.png" id="1_ch03o"]
+[ext_resource type="Texture2D" uid="uid://nwapm537srqs" path="res://art/tilesets/Grass.png" id="2_w1vac"]
+[ext_resource type="Texture2D" uid="uid://spusnej1hhyt" path="res://art/tilesets/Tilled_Dirt_Wide_v2.png" id="3_5jhh2"]
+[ext_resource type="Texture2D" uid="uid://cfnw1nxekkst2" path="res://art/objects/basic_grass_biom_things.png" id="4_pbe7d"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i1in7"]
 texture = ExtResource("1_ch03o")
