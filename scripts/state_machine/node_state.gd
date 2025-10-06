@@ -1,3 +1,5 @@
+# Base para objetos NodeStates/Estados do Player
+
 class_name NodeState
 extends Node
 

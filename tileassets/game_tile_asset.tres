@@ -1,12 +1,16 @@
-[gd_resource type="TileSet" load_steps=9 format=3 uid="uid://cx6w7pusha614"]
+[gd_resource type="TileSet" load_steps=11 format=3 uid="uid://cx6w7pusha614"]
 
-[ext_resource type="Texture2D" uid="uid://sjvskpovfm5m" path="res://art/tilesets/Water.png" id="1_ch03o"]
-[ext_resource type="Texture2D" uid="uid://nwapm537srqs" path="res://art/tilesets/Grass.png" id="2_w1vac"]
-[ext_resource type="Texture2D" uid="uid://spusnej1hhyt" path="res://art/tilesets/Tilled_Dirt_Wide_v2.png" id="3_5jhh2"]
-[ext_resource type="Texture2D" uid="uid://cfnw1nxekkst2" path="res://art/objects/basic_grass_biom_things.png" id="4_pbe7d"]
+[ext_resource type="PackedScene" uid="uid://dhf5x0gadtvi7" path="res://scene/house/large_house.tscn" id="1_vn0lt"]
+[ext_resource type="Texture2D" uid="uid://sjvskpovfm5m" path="res://art/tilesets/Water.png" id="2_u1b6d"]
+[ext_resource type="Texture2D" uid="uid://nwapm537srqs" path="res://art/tilesets/Grass.png" id="3_3veuy"]
+[ext_resource type="Texture2D" uid="uid://spusnej1hhyt" path="res://art/tilesets/Tilled_Dirt_Wide_v2.png" id="4_d0tkg"]
+[ext_resource type="Texture2D" uid="uid://cfnw1nxekkst2" path="res://art/objects/basic_grass_biom_things.png" id="5_j1ihw"]
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_ifk4o"]
+scenes/1/scene = ExtResource("1_vn0lt")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i1in7"]
-texture = ExtResource("1_ch03o")
+texture = ExtResource("2_u1b6d")
 0:0/animation_columns = 4
 0:0/animation_frame_0/duration = 0.2
 0:0/animation_frame_1/duration = 0.2
@@ -15,7 +19,7 @@ texture = ExtResource("1_ch03o")
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pbe7d"]
-texture = ExtResource("2_w1vac")
+texture = ExtResource("3_3veuy")
 0:0/0 = 0
 0:0/0/terrain_set = 0
 0:0/0/terrain = 0
@@ -230,7 +234,7 @@ texture = ExtResource("2_w1vac")
 1:2/0/terrains_peering_bit/top_right_corner = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b6gsa"]
-texture = ExtResource("3_5jhh2")
+texture = ExtResource("4_d0tkg")
 0:0/0 = 0
 0:0/0/terrain_set = 0
 0:0/0/terrain = 1
@@ -453,7 +457,7 @@ texture = ExtResource("3_5jhh2")
 5:2/0/terrains_peering_bit/top_side = 1
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xdbba"]
-texture = ExtResource("4_pbe7d")
+texture = ExtResource("5_j1ihw")
 5:0/0 = 0
 6:0/0 = 0
 7:0/0 = 0
@@ -491,3 +495,4 @@ sources/1 = SubResource("TileSetAtlasSource_i1in7")
 sources/4 = SubResource("TileSetAtlasSource_pbe7d")
 sources/7 = SubResource("TileSetAtlasSource_b6gsa")
 sources/8 = SubResource("TileSetAtlasSource_xdbba")
+sources/0 = SubResource("TileSetScenesCollectionSource_ifk4o")

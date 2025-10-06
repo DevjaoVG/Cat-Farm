@@ -47,4 +47,4 @@ func transition_to(node_state_name : String) -> void: # Função conectada ao Si
 	
 	current_node_state = new_node_state # Atualiza variavel que contem Estado Atual
 	current_node_state_name = current_node_state.name.to_lower() # Settando o nome do Estado Atual
-	print("Current State: ", current_node_state_name) # Debug
+	#print("Current State: ", current_node_state_name) # Debug
