@@ -26,10 +26,10 @@ window/stretch/scale_mode="integer"
 [file_customization]
 
 folder_colors={
-"res://art/": "orange",
-"res://scene/": "yellow",
-"res://scripts/": "purple",
-"res://tileassets/": "blue"
+"res://art/": "blue",
+"res://scene/": "red",
+"res://scripts/": "yellow",
+"res://tileassets/": "teal"
 }
 
 [input]
@@ -65,6 +65,8 @@ hit={
 2d_physics/layer_1="Ground"
 2d_physics/layer_2="Player"
 2d_physics/layer_3="Interactable"
+2d_physics/layer_4="Tools"
+2d_physics/layer_5="Objects"
 
 [rendering]
 
